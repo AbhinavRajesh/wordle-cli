@@ -1,7 +1,6 @@
 export const words: string[] = [
     "cigar",
     "rebut",
-    "sissy",
     "humph",
     "awake",
     "blush",

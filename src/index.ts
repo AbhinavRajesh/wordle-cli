@@ -53,7 +53,6 @@ const main = async () => {
   }
 
   let totalGuesses = guesses.length === 0 ? 1 : guesses.length;
-  console.log(totalGuesses);
   while (totalGuesses <= 6 && !answerFound) {
     const guess: string = await getGuess(totalGuesses);
     displayGuess(word, guess);
@@ -75,4 +74,10 @@ const main = async () => {
 
 main()
   .then(() => "Hope you enjoyed the game :)")
-  .catch((err) => console.error(err));
+  .catch((err) => {
+    console.error(err);
+    console.log(
+      "Oops! Some error occured. Please report the error at the github issues with the steps to reproduce them"
+    );
+    process.exit(1);
+  });
