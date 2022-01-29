@@ -1,6 +1,6 @@
 {
   "name": "@abhinavrajesh/wordle",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI implementation of Wordle game",
   "main": "dist/index.js",
   "bin": "dist/index.js",
