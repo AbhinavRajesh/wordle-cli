@@ -20,9 +20,9 @@
 
 ```sh
 # using npm
-npm i -g @abhinavrajesh/wordle-cli
+npm i -g @abhinavrajesh/wordle
 # or using yarn
-yarn global add @abhinavrajesh/wordle-cli
+yarn global add @abhinavrajesh/wordle
 ```
 
 ## Usage
