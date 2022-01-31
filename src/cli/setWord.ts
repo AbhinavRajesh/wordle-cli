@@ -2,7 +2,7 @@ import fs from "fs";
 import path from "path";
 
 import data from "../utils";
-import { words } from "../message";
+import words from "../words.json";
 
 export const setWord = async (today: Date) => {
   const referenceDate = new Date("01/29/2022").getTime();

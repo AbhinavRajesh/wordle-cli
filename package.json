@@ -1,6 +1,6 @@
 {
   "name": "@abhinavrajesh/wordle",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "CLI implementation of Wordle game",
   "main": "dist/index.js",
   "bin": "dist/index.js",
@@ -12,7 +12,10 @@
   },
   "keywords": [
     "wordle",
-    "cli"
+    "cli",
+    "typescript",
+    "wordle-cli",
+    "game"
   ],
   "author": "Abhinav Rajesh",
   "license": "MIT",
